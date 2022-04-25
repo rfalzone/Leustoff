@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e06a1d1667b8d5e45bf01e45bab73261, type: 3}
+  m_Name: Continents
+  m_EditorClassIdentifier: 
+  itemID: 
+  _cardType: 1
+  cardName: Continents
+  cost: 4
+  power: 3
+  defense: 
+  art: {fileID: 21300000, guid: 27ef1fdb74cd72946a5cc142a60188af, type: 3}
+  altArt: {fileID: 21300000, guid: 632186a2530274248b9add39720c38fc, type: 3}
+  isFaceUp: 0
+  abilities: 0e000000

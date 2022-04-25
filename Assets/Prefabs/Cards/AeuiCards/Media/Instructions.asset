@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e06a1d1667b8d5e45bf01e45bab73261, type: 3}
+  m_Name: Instructions
+  m_EditorClassIdentifier: 
+  itemID: 
+  _cardType: 1
+  cardName: Instructions
+  cost: 3
+  power: 3
+  defense: 
+  art: {fileID: 21300000, guid: 97d4cbdbdf8a1d04c91a5ab396c37af1, type: 3}
+  altArt: {fileID: 21300000, guid: 592374a709652d848893303967970a23, type: 3}
+  isFaceUp: 0
+  abilities: 

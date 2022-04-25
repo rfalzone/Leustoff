@@ -1,0 +1,32 @@
+fileFormatVersion: 2
+guid: ed4ba786566f7e244bbf9357d2ba29e0
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - deck: {instanceID: 0}
+  - GameManager: {instanceID: 0}
+  - CardMain: {fileID: 2184985659640060026, guid: efe7839e81763dc4183a1e4bb50d7b20, type: 3}
+  - PlayerArea: {instanceID: 0}
+  - EnemyArea: {instanceID: 0}
+  - PlayerYard: {instanceID: 0}
+  - EnemyYard: {instanceID: 0}
+  - Canvas: {instanceID: 0}
+  - PlayerSlot1: {instanceID: 0}
+  - PlayerSlot2: {instanceID: 0}
+  - PlayerSlot3: {instanceID: 0}
+  - PlayerSlot4: {instanceID: 0}
+  - PlayerSlot5: {instanceID: 0}
+  - EnemySlot1: {instanceID: 0}
+  - EnemySlot2: {instanceID: 0}
+  - EnemySlot3: {instanceID: 0}
+  - EnemySlot4: {instanceID: 0}
+  - EnemySlot5: {instanceID: 0}
+  - deckList: {instanceID: 0}
+  - zoomCard: {instanceID: 0}
+  - newcard: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

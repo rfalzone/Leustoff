@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e06a1d1667b8d5e45bf01e45bab73261, type: 3}
+  m_Name: Matter Accumulation
+  m_EditorClassIdentifier: 
+  itemID: 
+  _cardType: 1
+  cardName: Matter Accumulation
+  cost: 3
+  power: 1
+  defense: 
+  art: {fileID: 21300000, guid: 178878a6bdaf5e849a771b752351e08d, type: 3}
+  altArt: {fileID: 21300000, guid: 0c4d7f01f471be4419f68fee87ec1597, type: 3}
+  isFaceUp: 0
+  abilities: 0d000000

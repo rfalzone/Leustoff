@@ -1,0 +1,114 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7982037525901275450
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5823399185900621606}
+  - component: {fileID: 8450281463991432843}
+  - component: {fileID: 519505403812365910}
+  - component: {fileID: 2344443507498542732}
+  m_Layer: 11
+  m_Name: AbilityIcon
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &5823399185900621606
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7982037525901275450}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -1257, y: 153.21954}
+  m_SizeDelta: {x: 30, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &8450281463991432843
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7982037525901275450}
+  m_CullTransparentMesh: 1
+--- !u!114 &519505403812365910
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7982037525901275450}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!114 &2344443507498542732
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7982037525901275450}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f23fb3d108950342b6c3cb46f6bc2c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FlyingIcon: {fileID: 21300000, guid: a31136e5362c3814cbfb86dea2e7689d, type: 3}
+  FortifyIcon: {fileID: 21300000, guid: a28da6e50289931468bccf3127b450a2, type: 3}
+  ShieldedIcon: {fileID: 21300000, guid: 9e1365fb8822cd14cb1ac4b2ebb2de98, type: 3}
+  Draw1Icon: {fileID: 21300000, guid: 556fc395d65d4e949b6f0c8136b93e4e, type: 3}
+  Edict: {fileID: 21300000, guid: bf972c727c09a8f44928becfb153b66d, type: 3}
+  Disrupt: {fileID: 21300000, guid: 443cec04dc406b74a8ab301fba58270a, type: 3}
+  Insulation: {fileID: 21300000, guid: 5345a814f2569d44c8c6ec4046253e03, type: 3}
+  Trial: {fileID: 21300000, guid: 2e20fb16a989d124e8c0e6d40b2e10b9, type: 3}
+  Counterspell: {fileID: 21300000, guid: 2a8f5681352681d4e83b37f99d4bd495, type: 3}
+  Glasses: {fileID: 21300000, guid: 00b454afb7a5c924b9aae8e26989e7f2, type: 3}
+  DamagedShielded: {fileID: 21300000, guid: 10123f3d86089ca4bb742a689beb2f6b, type: 3}
+  Bloodthirsty: {fileID: 21300000, guid: 3f840c7513a9e4d4986bf030b18eda76, type: 3}
+  Anthem: {fileID: 21300000, guid: 708f2e78b99d5ce4e8be2a5525e74c36, type: 3}
+  Opportunist: {fileID: 21300000, guid: 0b018c5bbc97f7e48a37928150d87334, type: 3}
+  Rhythm: {fileID: 21300000, guid: 740271373582e934c83f91ca0d1adb9d, type: 3}
+  BlueChip: {fileID: 21300000, guid: e21b60713c0a3344fa58c495e9548bef, type: 3}
+  Hasten: {fileID: 21300000, guid: d2c3a6da14049f0439e1836934c7d598, type: 3}
+  Dash: {fileID: 21300000, guid: b895b8b8176737c48b99d4d4ed04cb62, type: 3}
+  Teamwork: {fileID: 21300000, guid: 589f5e8bbe78953418c8d690427f6eb3, type: 3}
+  FortifyEnhance: {fileID: 21300000, guid: a28da6e50289931468bccf3127b450a2, type: 3}
+  SpawnAssistant: {fileID: 21300000, guid: 3086f345105f388439e2293af871ae11, type: 3}
+  SpawnTeammate: {fileID: 21300000, guid: 999799e3ccb13b94bb187ebc6b68c2a7, type: 3}
+  Behead: {fileID: 21300000, guid: 154c8fd6c98bbbd458a49cc3533df092, type: 3}
+  ability: 0

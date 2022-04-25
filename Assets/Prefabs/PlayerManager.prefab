@@ -1,0 +1,149 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &9028683244500182202
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3722182558553390614}
+  - component: {fileID: -7059480624915068345}
+  - component: {fileID: 6605494094085045574}
+  - component: {fileID: 4374001612148634013}
+  m_Layer: 0
+  m_Name: PlayerManager
+  m_TagString: Player
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3722182558553390614
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9028683244500182202}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1373.1434, y: 850.11285, z: -216.20561}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-7059480624915068345
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9028683244500182202}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b91ecbcc199f4492b9a91e820070131, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneId: 0
+  serverOnly: 0
+  visible: 0
+  m_AssetId: 40cf7268c7e2e0847aa590ef144f7cb7
+  hasSpawned: 0
+--- !u!114 &6605494094085045574
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9028683244500182202}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f74aedd71d9a4f55b3ce499326d45fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  syncMode: 0
+  syncInterval: 0.1
+  clientAuthority: 1
+  sendInterval: 0.05
+  syncPosition: 1
+  syncRotation: 1
+  syncScale: 0
+  interpolatePosition: 1
+  interpolateRotation: 1
+  interpolateScale: 0
+  bufferTimeMultiplier: 1
+  bufferSizeLimit: 64
+  catchupThreshold: 4
+  catchupMultiplier: 0.1
+  showGizmos: 0
+  showOverlay: 0
+  overlayColor: {r: 0, g: 0, b: 0, a: 0.5}
+--- !u!114 &4374001612148634013
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9028683244500182202}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed4ba786566f7e244bbf9357d2ba29e0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  syncMode: 0
+  syncInterval: 0.1
+  GameManager: {fileID: 2392613963000342218, guid: 9d6ee1eff99a9074c889cbc74f4ed3b5, type: 3}
+  CardMain: {fileID: 2184985659640060026, guid: efe7839e81763dc4183a1e4bb50d7b20, type: 3}
+  PlayerArea: {fileID: 1588155777104023787, guid: 9d128ecceda0b5146bd9efa312a23b5b, type: 3}
+  EnemyArea: {fileID: 5550907269087561464, guid: 5efaa35a77a6e3b42934490cf1f63f9f, type: 3}
+  PlayerYard: {fileID: 7666549930339060008, guid: b747b3f4e6bdff0498f96ddcf61122be, type: 3}
+  EnemyYard: {fileID: 7666549930339060008, guid: 8b3febd1e807f394793b076a0032fd4f, type: 3}
+  Canvas: {fileID: 0}
+  PlayerBoard: {fileID: 0}
+  EnemyBoard: {fileID: 0}
+  masterCardList: {fileID: 11400000, guid: ca625754cf0970e4193233d2cb6958f1, type: 2}
+  zoomCard: {fileID: 0}
+  zoomfactor: 0
+  newcard: {fileID: 0}
+  EnergyZone: {fileID: 0}
+  UIManager: {fileID: 0}
+  image: {fileID: 0}
+  mydeck: {fileID: 0}
+  DeckListList: {fileID: 1490400215963848918, guid: 6687e659914bf784280c46affc4ed8c6, type: 3}
+  haveDeck: 0
+  DrawButton: {fileID: 863293970918322209, guid: 866abb7e1430c844ea007b0417c3804b, type: 3}
+  SpellArea: {fileID: 0}
+  PlayerComboZone: {fileID: 0}
+  EnemyComboZone: {fileID: 0}
+  SpellManager: {fileID: 0}
+  MyID: 0
+  DragDropParent: 
+  Hands:
+  - PlayerArea
+  - EnemyArea0
+  - EnemyArea1
+  - EnemyArea2
+  Boards:
+  - PlayerBoard
+  - EnemyBoard0
+  - EnemyBoard1
+  - EnemyBoard2
+  ComboZones:
+  - PlayerComboZone
+  - EnemyComboZone0
+  - EnemyComboZone1
+  - EnemyComboZone2
+  Yards:
+  - PlayerYard
+  - EnemyYard0
+  - EnemyYard1
+  - EnemyYard2
+  DealID: 0
+  currentSpell: 
+  HitMarker: {fileID: 4029593380251671237, guid: 55d25ae889fc28645b91bcada2202971, type: 3}
+  spellcasting: 0
+  cardname: 
+  currentCost: 0
+  textObj: {fileID: 3691038663259362150, guid: e8fb45431d5477d40a845508f99a3248, type: 3}
+  selectedDeck: {fileID: 0}
