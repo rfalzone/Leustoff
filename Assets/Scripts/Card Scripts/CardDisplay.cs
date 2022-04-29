@@ -316,7 +316,6 @@ public class CardDisplay : NetworkBehaviour
     /// </summary>
     public void Bounce()
     {
-        zone = "Hand";
         string targetHand = NetworkClient.connection.identity.GetComponent<PlayerManager>().Hands[ZoneSorterOuter(owner)];
         GameObject Hand = GameObject.Find(targetHand);
         if (Hand.transform.childCount < 5)
@@ -333,6 +332,7 @@ public class CardDisplay : NetworkBehaviour
             RemoveSummoningSick();
             gameObject.transform.SetParent(Hand.transform, false);
             LTB();
+            zone = "Hand";
 
         }
         else
@@ -542,6 +542,7 @@ public class CardDisplay : NetworkBehaviour
 
     /// <summary>
     /// Method <c>LTB</c> activates abilities that trigger when a card leaves the Board
+    /// Rpc Subfuction
     /// </summary>
     public void LTB()
     {
@@ -566,7 +567,7 @@ public class CardDisplay : NetworkBehaviour
                     GameManager.playerDeficitThresholdList[owner]--;
                     break;
                 case Ability.Glasses:
-                    PlayerManager.CmdNoGlasses(owner);
+                    GameManager.RpcNoGlasses(owner);
                     break;
                 case Ability.Anthem:
                     foreach (GameObject card in GameObject.FindGameObjectsWithTag("Card"))
@@ -586,10 +587,7 @@ public class CardDisplay : NetworkBehaviour
 
             }
         }
-        if (typeText.text == "Combo")
-        {
-            GameManager.playerComboPowerList[owner] = GameManager.playerComboPowerList[owner] - int.Parse(attackText.text);
-        }
+    
         GameObject ZoomSquare = gameObject.transform.Find("ZoomSquare").gameObject;
 
         GameObject ZoomAbilityContainer = ZoomSquare.transform.GetChild(1).gameObject;

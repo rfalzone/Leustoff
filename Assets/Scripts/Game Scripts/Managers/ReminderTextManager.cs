@@ -35,9 +35,6 @@ public class ReminderTextManager : MonoBehaviour
             case Ability.Disrupt:
                 reminderText.text = "Disrupt\nLowers the targets attack and defense by this spells power temporarily";
                 break;
-            case Ability.Dampen:
-                reminderText.text = "";
-                break;
             case Ability.Insulated:
                 reminderText.text = "Take one aditional damage before taking penalty";
                 break;
@@ -103,7 +100,6 @@ public class ReminderTextManager : MonoBehaviour
             case Ability.SpawnIce:
                 reminderText.text = "Spawn Ice\nCreates a 1/1";
                 break;
- 
             
             case Ability.SpawnVernalPool:
                 reminderText.text = "Spawn Vernal Pool\nSpawn a 2/1";
@@ -113,6 +109,9 @@ public class ReminderTextManager : MonoBehaviour
                 break;
             case Ability.Behead:
                 reminderText.text = "Behead\n Destroys each player's largest creature";
+                break;
+            default:
+                 Destroy(gameObject);
                 break;
                                    
 
