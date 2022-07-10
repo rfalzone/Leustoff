@@ -1,4 +1,4 @@
-# Leustoff
+# Sorcerer's Seven
  A 4 player card game 
 
 
